@@ -12,3 +12,9 @@ html {
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto; /*center container inside a container*/
+    margin: 0 auto;
+}
