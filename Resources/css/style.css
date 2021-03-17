@@ -18,3 +18,8 @@ html {
     margin: 0 auto 0 auto; /*center container inside a container*/
     margin: 0 auto;
 }
+
+header {
+    background-image: url(img/hero_2_IA.jpeg);
+    height: 100vh;
+}
