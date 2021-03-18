@@ -26,7 +26,6 @@ header {
     /* makes transparent background inside main header*/
 }
 
-
 .main-text-box {
     position: absolute;         /* container with background image & main title*/
     width: 1140px;
@@ -47,3 +46,21 @@ h1 {
     /* ^^^making headline big to catch user attention^^^*/
 }
 
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300px;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+}
+
+.btn-full {
+    /* flat ui tool is used for left button*/
+    background-color: #9b59b6;
+
+}
+
+.btn-ghost {
+    border: 1px solid #9b59b6;
+} 
