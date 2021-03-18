@@ -35,7 +35,8 @@ header {
 }
 
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
     color: white; /* color of heading font*/
     font-size: 240%; /* size of heading font & base size of html main font size*/
     font-weight: 300;
@@ -45,7 +46,7 @@ h1 {
 
     /* ^^^making headline big to catch user attention^^^*/
 }
-
+/* settings for both buttons */
 .btn {
     display: inline-block;
     padding: 10px 30px;
@@ -54,13 +55,13 @@ h1 {
     border-radius: 200px;
     color: #fff;
 }
-
+/* settings for left button */
 .btn-full {
     /* flat ui tool is used for left button*/
     background-color: #9b59b6;
 
 }
-
+/* settings for right button */
 .btn-ghost {
     border: 1px solid #9b59b6;
 } 
