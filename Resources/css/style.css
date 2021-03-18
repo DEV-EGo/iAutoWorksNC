@@ -15,11 +15,26 @@ html {
 
 .row{
     max-width: 1140px;
-    margin: 0 auto 0 auto; /*center container inside a container*/
-    margin: 0 auto;
+    margin: 0 auto; /*center container inside a container*/
 }
 
 header {
-    background-image: url(img/hero_2_IA.jpeg);
-    height: 100vh;
+    height: 100vh; /* expand img height*/
+    background-size: cover; /* shows the entire backgoroung img*/
+    background-position: center; /* centers img*/
+    background-image: url(img/main_3_abstract.jpeg);
 }
+
+
+.main-text-box {
+    position: absolute;         /* container with background image & main title*/
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    margin: 0;
+}
+
