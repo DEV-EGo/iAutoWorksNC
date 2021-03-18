@@ -56,7 +56,8 @@ h1 {
 
 /* settings for both buttons */
 /* added pseudo element of hover*/
-.btn:hover {
+.btn:link, 
+.btn:visited {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300px;
@@ -68,21 +69,31 @@ h1 {
 /* -------------------------------------------------------------------------------- */
 
 /* settings for left button */
-.btn-full {
+.btn-full:link,
+.btn-full:visited {
     /* flat ui tool is used for left button*/
     background-color: #9b59b6;
 
 }
 /* -------------------------------------------------------------------------------- */
 
+
+/* -------------------------------------------------------------------------------- */
+/* hover on button*/
+/* 0to255 tool used to find darker shade of color */
+.btn:hover,
+.btn:active {
+
+}
+
 /* settings for right button */
-.btn-ghost {
+.btn-ghost:link,
+.btn-ghost:link {
     border: 1px solid #9b59b6;
     color: white;
 } 
 /* -------------------------------------------------------------------------------- */
 
-/* -------------------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------------------- */
 
