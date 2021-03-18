@@ -22,7 +22,8 @@ header {
     height: 100vh; /* expand img height*/
     background-size: cover; /* shows the entire backgoroung img*/
     background-position: center; /* centers img*/
-    background-image: url(img/main_3_abstract.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/main_3_abstract.jpeg);
+    /* makes transparent background inside main header*/
 }
 
 
@@ -31,10 +32,18 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); /**/
 }
 
 h1 {
     margin: 0;
+    color: white; /* color of heading font*/
+    font-size: 240%; /* size of heading font & base size of html main font size*/
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+
+    /* ^^^making headline big to catch user attention^^^*/
 }
 
