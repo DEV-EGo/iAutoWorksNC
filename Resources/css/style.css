@@ -22,25 +22,6 @@ html {
     max-width: 1140px;
     margin: 0 auto; /*center container inside a container*/
 }
-/* ------------------- */
-
-header {
-    height: 100vh; /* expand img height*/
-    background-size: cover; /* shows the entire backgoroung img*/
-    background-position: center; /* centers img*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/main_3_abstract.jpeg);
-    /* makes transparent background inside main header*/
-}
-/* -------------------- */
-
-.main-text-box {
-    position: absolute;         /* container with background image & main title*/
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); /**/
-}
-/* -------------------- */
 
 h1 {
     margin-top: 0;
@@ -118,6 +99,31 @@ h1 {
     border: 1px solid #efedeb;
     color: #46da5f;
 }
+
+/* -------------------------------------------------------------------------------- */
+/* HEADER*/
+/* -------------------------------------------------------------------------------- */
+
+/* ------------------- */
+
+header {
+    height: 100vh; /* expand img height*/
+    background-size: cover; /* shows the entire backgoroung img*/
+    background-position: center; /* centers img*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/main_3_abstract.jpeg);
+    /* makes transparent background inside main header*/
+}
+/* -------------------- */
+
+.main-text-box {
+    position: absolute;         /* container with background image & main title*/
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /**/
+}
+/* -------------------- */
+
 /* -------------------------- */
 /* -------------------------- */
 /* -------------------------- */
