@@ -118,3 +118,20 @@ header {
     left: 50%;
     transform: translate(-50%,-50%); /**/
 }
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.main-nav{
+    float: right;
+    list-style: none; /* gets rid of bullet points*/
+}
+
+.main-nav li /* selecting li elements inside the main nav*/ 
+{
+     display: inline-block; /* allows li to be side by side*/
+     margin-left: 40px;
+}
