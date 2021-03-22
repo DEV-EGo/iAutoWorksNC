@@ -16,12 +16,16 @@ html {
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
-/* ------------------- */
+
 
 .row{
     max-width: 1140px;
     margin: 0 auto; /*center container inside a container*/
 }
+
+/* -------------------------------------------------------------------------------- */
+/* Headings*/
+/* -------------------------------------------------------------------------------- */
 
 h1 {
     margin-top: 0;
@@ -36,7 +40,7 @@ h1 {
     /* ^^^making headline big to catch user attention^^^*/
 }
 
-/* --------------------- */
+
 
 /* settings for both buttons */
 /* added pseudo element of hover*/
@@ -50,7 +54,9 @@ h1 {
     transition: background-color 0.2s, border 0.2s, color 0.2s ; /* background color will change when you hover over link in 2s*/
 }
 
-/* ---------------------- */
+/* -------------------------------------------------------------------------------- */
+/* Buttons*/
+/* -------------------------------------------------------------------------------- */
 
 /* settings for left button */
 .btn-full:link,
@@ -62,7 +68,6 @@ h1 {
     margin-right: 15px; /* distance between the buttons*/
 }
 
-/* ----------------------- */
 
 /* settings for right button */
 .btn-ghost:link,
@@ -70,19 +75,13 @@ h1 {
     border: 1px solid #099d29;
     color: white;
 } 
-/* ----------------------- */
 
-
-/* ------------------------- */
 /* hover on button*/
 /* 0to255 tool used to find darker shade of color */
 .btn:hover,
 .btn:active {
     background-color: #6cecec7a;
 }
-
-
-/* ------------------------- */
 
 /* hover effect on left button */
 .btn-full:hover,
@@ -91,7 +90,6 @@ h1 {
     border: 1px solid #efedeb;
     /* color: #46da5f; */
 }
-/* -------------------------- */
 /* button effect on right buttom */
 
 .btn-ghost:hover,
@@ -104,7 +102,6 @@ h1 {
 /* HEADER*/
 /* -------------------------------------------------------------------------------- */
 
-/* ------------------- */
 
 header {
     height: 100vh; /* expand img height*/
@@ -113,7 +110,6 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/main_3_abstract.jpeg);
     /* makes transparent background inside main header*/
 }
-/* -------------------- */
 
 .main-text-box {
     position: absolute;         /* container with background image & main title*/
@@ -122,10 +118,3 @@ header {
     left: 50%;
     transform: translate(-50%,-50%); /**/
 }
-/* -------------------- */
-
-/* -------------------------- */
-/* -------------------------- */
-/* -------------------------- */
-/* -------------------------- */
-/* -------------------------- */
