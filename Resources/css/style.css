@@ -23,23 +23,50 @@ html {
     margin: 0 auto; /*center container inside a container*/
 }
 
+section {
+    padding: 80px 0;
+}
+
+
 /* -------------------------------------------------------------------------------- */
 /* Headings*/
 /* -------------------------------------------------------------------------------- */
 
-h1 {
+h1,h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1{
     margin-top: 0;
     margin-bottom: 20px;
     color: white; /* color of heading font*/
     font-size: 240%; /* size of heading font & base size of html main font size*/
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-
+    word-spacing: 5px;
     /* ^^^making headline big to catch user attention^^^*/
 }
 
+h2{
+    font-size: 100%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: #2a05386e;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Buttons*/
+/* -------------------------------------------------------------------------------- */
 
 
 /* settings for both buttons */
@@ -54,9 +81,6 @@ h1 {
     transition: background-color 0.2s, border 0.2s, color 0.2s ; /* background color will change when you hover over link in 2s*/
 }
 
-/* -------------------------------------------------------------------------------- */
-/* Buttons*/
-/* -------------------------------------------------------------------------------- */
 
 /* settings for left button */
 .btn-full:link,
