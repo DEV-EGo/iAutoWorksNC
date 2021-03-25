@@ -236,6 +236,13 @@ header {
     display: block;
     float: left;
     width: 25%; /* 4 elements that need to be changed in width */
-    
+}
+.deals-photo{
+    width: 100%;
+    margin: 0%;
+}
 
+.deals-photo img {
+    width: 100%;
+    height: auto;
 }
