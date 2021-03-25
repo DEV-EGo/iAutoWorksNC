@@ -226,6 +226,11 @@ header {
 /* -------------------------------------------------------------------------------- */
 /* DEALS*/
 /* -------------------------------------------------------------------------------- */
+
+.section-deals{
+    padding: 0;
+
+}
 .deals-showcase{
     list-style: none; /* removing bullet points from the list*/
     width: 100%;
@@ -245,4 +250,6 @@ header {
 .deals-photo img {
     width: 100%;
     height: auto;
+    transform: scale(1.15); /* image will expand 115% BIG*/
+    
 }
