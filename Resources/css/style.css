@@ -245,11 +245,17 @@ header {
 .deals-photo{
     width: 100%;
     margin: 0%;
+    overflow: hidden; /* doesnt let the img go over the container*/
+
 }
 
 .deals-photo img {
     width: 100%;
     height: auto;
     transform: scale(1.15); /* image will expand 115% BIG*/
-    
+
+}
+
+.deals-photo img:hover {
+    transform: scale(1);
 }
