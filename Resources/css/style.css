@@ -222,3 +222,20 @@ header {
     border-bottom: 2px solid #765185;
 
 }
+
+/* -------------------------------------------------------------------------------- */
+/* DEALS*/
+/* -------------------------------------------------------------------------------- */
+.deals-showcase{
+    list-style: none; /* removing bullet points from the list*/
+    width: 100%;
+
+}
+
+.deals-showcase li {
+    display: block;
+    float: left;
+    width: 25%; /* 4 elements that need to be changed in width */
+    
+
+}
