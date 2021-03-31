@@ -9,7 +9,7 @@
 
 
 html {
-    background-color: aliceblue;
+    background-color: #375d7f;
     color: rgb(55, 55, 55);
     font-family: "Lato", "Arial";
     font-size: 20px; /* base font size*/
@@ -269,3 +269,36 @@ header {
     opacity: 1;;
     transform: scale(1);
 }
+
+/* -------------------------------------------------------------------------------- */
+/* how it works*/
+/* -------------------------------------------------------------------------------- */
+
+.steps-box{
+    margin-top: 30px;
+}
+
+.steps-box:first-child {
+    /* will select the 1st of the step boxes*/
+    text-align: right;
+    padding: 3%;
+
+}
+
+.steps-box:last-child{
+        /* will select the last of the step boxes*/
+    padding: 3%;
+
+}
+.app-screen{
+    width: 40%;
+}
+
+.works-step{
+    margin-bottom: 50px;
+}
+
+.works-step div {
+    color: #e67e22;
+}
+
