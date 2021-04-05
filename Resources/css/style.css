@@ -274,21 +274,17 @@ header {
 /* how it works*/
 /* -------------------------------------------------------------------------------- */
 
-.steps-box{
-    margin-top: 30px;
-}
-
 .steps-box:first-child {
     /* will select the 1st of the step boxes*/
     text-align: right;
     padding: 3%;
-
+    margin-top: 30px;
 }
 
 .steps-box:last-child{
         /* will select the last of the step boxes*/
     padding: 3%;
-
+    margin-top: 70px;
 }
 .app-screen{
     width: 40%;
@@ -310,4 +306,9 @@ header {
     font-size: 150%;
     margin-right: 25px;
 }
-
+.btn-app img{ 
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+    
+}
