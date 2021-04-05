@@ -9,12 +9,16 @@
 
 
 html {
-    background-color: #375d7f;
+    /* background-color: #375d7f; */
     color: rgb(55, 55, 55);
     font-family: "Lato", "Arial";
     font-size: 20px; /* base font size*/
     font-weight: 300;
     text-rendering: optimizeLegibility;
+}
+
+nav{
+background-color: #375d7f;
 }
 
 .clearfix {zoom:1}
@@ -283,7 +287,7 @@ header {
 /* -------------------------------------------------------------------------------- */
 /* how it works*/
 /* -------------------------------------------------------------------------------- */
-.setion-steps{
+.setions-steps{
     background-color: whitesmoke;
     
 }
