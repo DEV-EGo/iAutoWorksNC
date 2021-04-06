@@ -110,7 +110,7 @@ h2::after {
 
 
 /* -------------------------------------------------------------------------------- */
-/* Paragraphs*/
+/* ICON*/
 /* -------------------------------------------------------------------------------- */
 
 .big-icon {
@@ -118,6 +118,20 @@ h2::after {
     display: block;
     color: #18286fd1;
     margin-bottom:10px;
+}
+
+.small-icon {
+    display: inline-block; 
+    width: 30px;
+    text-align: center;
+    color: #375d7f;
+    font-size: 120%;
+    margin-right: 10px;
+
+    /* secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -335,4 +349,22 @@ header {
     width: auto;
     margin-right: 10px;
 
+}
+
+/* -------------------------------------------------------------------------------- */
+/* service*/
+/* -------------------------------------------------------------------------------- */
+
+.box img {
+    /* targeting images inside box of service page */
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+
+}
+
+.Curb-feature , .Detail-feature,
+.Vinyl-feature{
+    margin-bottom: 5px;
+    
 }
