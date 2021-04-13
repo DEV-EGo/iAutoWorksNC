@@ -23,6 +23,7 @@ background-color: #000000;
 
 .clearfix {zoom:1}
 /* this class clears a float after an element */
+
 .clearfix {
     content: '.';
     clear: both;
@@ -201,7 +202,7 @@ header {
     height: 100vh; /* expand img height*/
     background-size: cover; /* shows the entire backgoroung img*/
     background-position: center; /* centers img*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/main_3_abstract.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/ia_logo.jpeg);
     /* makes transparent background inside main header*/
 }
 
