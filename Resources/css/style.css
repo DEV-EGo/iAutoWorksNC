@@ -387,19 +387,29 @@ background-color: orange ;
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
 
-#email .container {
+#email .container 
+{
     width: 50%;
     max-width: 500px;
     padding: 10px;
     background-color: #fff ;
     margin: 0 auto;
+    align-items: center;
+    align-content: center;
 }
 
-.form-group {
+.form-group 
+{
     width: 100%;
     margin-bottom: 1rem;
-    
+    padding: 0 20px;
+}
+
+input [type = "text"],
+input [type ="email"]
+{
+    width: 100%;
+    height: 2rem;
 }
