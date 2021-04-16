@@ -402,16 +402,14 @@ align-items: center;
     box-shadow: 0 15px 20px rgb(0,0,0.5);
 }
 
-.form-group 
+.form-group
 {
    margin: 1rem;
    align-items: center;
-   align-items: center;
 }
 
-input [type = "text"],
-input [type = "email"]
-{
+input[type="text"],
+input[type=email]{
     width: 100%;
     height: 2rem;
 }
