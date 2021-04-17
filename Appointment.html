@@ -59,7 +59,65 @@
 
                 <div class="col span-1-of-2">
 
-                    <img src="./Resources/css/img/app-iPhone.png " alt="app on app-iPhone" class="app-screen">
+                    <section id="email">
+                    
+                        <div class="container">
+    
+                          <form action="https://formspree.io/f/mdoykoka" method="POST" id="my-form">
+    
+                            <div class="form-group">
+                              <label for="">Name</label>
+                              <input type="text" name="Name" placeholder="Enter Your Name" />
+                            </div>
+                  
+                            <div class="form-group">
+                              <label for="">Email</label>
+                              <input type="email" name="E-mail" placeholder="Enter Your Email" />
+                            </div>
+                  
+                            <div class="form-group">
+                              <label for="">Contact</label>
+                              <input
+                                type="text"
+                                name="phone Number"
+                                placeholder="Phone Number"/>
+                            </div>
+                  
+                            <div class="form-group">
+                              <label for="">Service Of Choice</label>
+                  
+                              <select name="Services" id="select">
+                  
+                              <option value="Color Change">Wheel Color Change</option>
+                                <option value="Curb_Damage">Curb Damage</option>
+                                <option value="Auto_Detail">Automotive Detail</option>
+                                <option value="Wrap">Vinyl</option>
+                  
+                              </select>
+                          
+                            </div>
+                  
+                            <div class="form-group">
+                              <label for="">message</label>
+                              <textarea name="message" id="" cols="30" rows="10"> </textarea>
+                            </div>
+                  
+                            <button type="submit" id="btn">submit</button>
+    
+                          </form>
+                  
+                          <!-- this div will stop the formspree reload -->
+                          <div id="status"></div>
+                          <!-- this div will stop the formspree reload -->
+    
+                        </div>
+                  
+                        <!-- form end -->
+                      </section>
+                  
+    
+    
+                    <!-- <img src="./Resources/css/img/iphone_mail_street.jpeg" alt="app on app-iPhone" class="app-screen"> -->
 
                 </div>
 
@@ -100,66 +158,11 @@
 
                 </div>
 
-                <section id="email">
-                    
-                    <div class="container">
-
-                      <form action="https://formspree.io/f/mdoykoka" method="POST" id="my-form">
-
-                        <div class="form-group">
-                          <label for="">Name</label>
-                          <input type="text" name="Name" placeholder="Enter Your Name" />
-                        </div>
-              
-                        <div class="form-group">
-                          <label for="">Email</label>
-                          <input type="email" name="E-mail" placeholder="Enter Your Email" />
-                        </div>
-              
-                        <div class="form-group">
-                          <label for="">Contact</label>
-                          <input
-                            type="text"
-                            name="phone Number"
-                            placeholder="Phone Number"/>
-                        </div>
-              
-                        <div class="form-group">
-                          <label for="">Service Of Choice</label>
-              
-                          <select name="Services" id="select">
-              
-                          <option value="Color Change">Wheel Color Change</option>
-                            <option value="Curb_Damage">Curb Damage</option>
-                            <option value="Auto_Detail">Automotive Detail</option>
-                            <option value="Wrap">Vinyl</option>
-              
-                          </select>
-                      
-                        </div>
-              
-                        <div class="form-group">
-                          <label for="">message</label>
-                          <textarea name="message" id="" cols="30" rows="10"> </textarea>
-                        </div>
-              
-                        <button type="submit" id="btn">submit</button>
-
-                      </form>
-              
-                      <!-- this div will stop the formspree reload -->
-                      <div id="status"></div>
-                      <!-- this div will stop the formspree reload -->
-
-                    </div>
-              
-                    <!-- form end -->
-                  </section>
-              
-
-
             </div>
+
         </section>
+
+     
 
         <script src="./Resources/javascript/manifest.js"></script>
 
