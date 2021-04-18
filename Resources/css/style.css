@@ -78,7 +78,7 @@ h2{
     font-size: 100%;
     word-spacing: 2px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     letter-spacing: 1px;
 
 }
@@ -344,8 +344,8 @@ header {
 }
 
 .works-step div {
-    color: #e67e22;
-    border: 2px solid #e67e22;
+    color: black;
+    border: 2px solid #e1070775;
     display: inline-block;
     border-radius: 50%;
     width: 55px;
