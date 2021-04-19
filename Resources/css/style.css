@@ -19,7 +19,7 @@ html {
 
 body{ 
     font-family: Arial, Helvetica, sans-serif;
-
+    /* max-width: 100%; */
 }
 
 nav{
@@ -47,7 +47,7 @@ section {
 }
 
 .box{ 
-    padding: 1%;
+    /* padding: 1%; */
 
 }
 
@@ -219,8 +219,8 @@ header {
 .main-text-box {
     position: absolute;         /* container with background image & main title*/
     width: 1140px;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 60%;
     transform: translate(-50%,-50%); /**/
 }
 
@@ -394,7 +394,7 @@ justify-content: center;
 align-items: center;
 /* background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0.8)), url(./img/hands-mechanic.jpeg); */
 background-size: cover;
-color: #fff;
+color: rgb(12, 12, 12);
 background-attachment: fixed;
 
 }
@@ -493,10 +493,10 @@ textarea
 
 
 /* mobile responsive */
-@media only screen and (max-width:620px) {
+@media only screen and (max-width:800px) {
     /* For mobile phones: */
     .nav, .header, .section-features, .row, .deals-showcase, .section-appointment, #email,
-    .Service, .my-form{
+    .Service, .my-form, #work{
       width:100%;
       height: 100%;
     }
