@@ -19,11 +19,13 @@ html {
 
 body{ 
     font-family: Arial, Helvetica, sans-serif;
+    background:gainsboro
     /* max-width: 100%; */
 }
 
 nav{
 background-color: #000000;
+max-width: 100%;
 }
 
 .clearfix {zoom:1}
@@ -40,6 +42,7 @@ background-color: #000000;
 .row{
     /* max-width: 1140px; */
     margin: 0 auto; /*center container inside a container*/
+    max-width: 100%;
 }
 
 section {
@@ -205,6 +208,7 @@ h2::after {
 
 header {
     height: 100vh; /* expand img height*/
+    max-width: 100%;
     background-size: cover; /* shows the entire backgoroung img*/
     background-position: center; /* centers img*/
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/ia_logo.jpeg); */
@@ -219,8 +223,8 @@ header {
 .main-text-box {
     position: absolute;         /* container with background image & main title*/
     width: 1140px;
-    top: 60%;
-    left: 60%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%); /**/
 }
 
@@ -384,7 +388,7 @@ header {
 /* EMAIL*/
 /* -------------------------------------------------------------------------------- */
 
-#email 
+.my-form
 {
 height: 100vh;
 width: 100%;
@@ -495,7 +499,7 @@ textarea
 /* mobile responsive */
 @media only screen and (max-width:800px) {
     /* For mobile phones: */
-    .nav, .header, .section-features, .row, .deals-showcase, .section-appointment, #email,
+    .nav, .header, .main-text-box, .section-features, .row, .deals-showcase, .section-appointment, #email,
     .Service, .my-form, #work{
       width:100%;
       height: 100%;
