@@ -502,6 +502,5 @@ textarea
     .nav, .header, .main-text-box, .section-features, .row, .deals-showcase, .section-appointment, #email,
     .Service, .my-form, #work{
       width:100%;
-      height: 100%;
     }
   }
