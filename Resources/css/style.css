@@ -40,7 +40,7 @@ max-width: 100%;
 }
 
 .row{
-    /* max-width: 1140px; */
+    max-width: 1140px;
     margin: 0 auto; /*center container inside a container*/
     max-width: 100%;
 }
@@ -207,18 +207,20 @@ h2::after {
 
 
 header {
-    height: 100vh; /* expand img height*/
+    height: 65vh; /* expand img height*/
     max-width: 100%;
     background-size: cover; /* shows the entire backgoroung img*/
     background-position: center; /* centers img*/
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/ia_logo.jpeg); */
     /* makes transparent background inside main header*/
 
+    text-align: center;
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0.8)), url(./img/hands-mechanic.jpeg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
 }
+
 
 .main-text-box {
     position: absolute;         /* container with background image & main title*/
