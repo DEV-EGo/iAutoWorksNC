@@ -1,59 +1,58 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* -------------------------------------------------------------------------------- */
 /* REUSABLE COMPONENTS START*/
 /* -------------------------------------------------------------------------------- */
 
-
 html {
-    /* background-color: #375d7f; */
-    color: rgb(55, 55, 55);
-    font-family: "Lato", "Arial";
-    font-size: 20px; /* base font size*/
-    font-weight: 300;
-    text-rendering: optimizeLegibility;
+  /* background-color: #375d7f; */
+  color: rgb(55, 55, 55);
+  font-family: "Lato", "Arial";
+  font-size: 20px; /* base font size*/
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
 }
 
-body{ 
-    font-family: Arial, Helvetica, sans-serif;
-    background:gainsboro
-    /* max-width: 100%; */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: gainsboro;
+  /* max-width: 100%; */
 }
 
-nav{
-background-color: #000000;
-max-width: 100%;
+nav {
+  background-color: #000000;
+  max-width: 100%;
 }
 
-.clearfix {zoom:1}
+.clearfix {
+  zoom: 1;
+}
 /* this class clears a float after an element */
 
 .clearfix {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
 
-.row{
-    max-width: 1140px;
-    margin: 0 auto; /*center container inside a container*/
-    max-width: 100%;
+.row {
+  max-width: 1140px;
+  margin: 0 auto; /*center container inside a container*/
+  max-width: 100%;
 }
 
-section {
-    padding: 80px 0;
+.section {
+  padding: 80px 0;
 }
 
-.box{ 
-    /* padding: 1%; */
-
+.box {
+  /* padding: 1%; */
 }
-
 
 /* -------------------------------------------------------------------------------- */
 /* Headings*/
@@ -62,209 +61,199 @@ section {
 h1,
 h2,
 h3 {
-    font-weight: 300;
-    text-transform: uppercase;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
-h1{
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: white; /* color of heading font*/
-    font-size: 240%; /* size of heading font & base size of html main font size*/
-    word-spacing: 5px;
-    /* ^^^making headline big to catch user attention^^^*/
-    letter-spacing: 1px;
-
-}
-   
-h2{
-    font-size: 100%;
-    word-spacing: 2px;
-    text-align: center;
-    margin-bottom: 80px;
-    letter-spacing: 1px;
-
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: white; /* color of heading font*/
+  font-size: 240%; /* size of heading font & base size of html main font size*/
+  word-spacing: 5px;
+  /* ^^^making headline big to catch user attention^^^*/
+  letter-spacing: 1px;
 }
 
-h3{
-    font-size: 110%;
-    margin-bottom: 15px;
+h2 {
+  font-size: 100%;
+  word-spacing: 2px;
+  text-align: center;
+  margin: 40px 0px 30px 0px;
+  /* margin-bottom: 80px; */
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
 }
 
 h2::after {
-    display: block;
-    height: 2px;
-    background-color: #2a05386e;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
+  display: block;
+  height: 2px;
+  background-color: #2a05386e;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 /* -------------------------------------------------------------------------------- */
 /* Paragraphs*/
 /* -------------------------------------------------------------------------------- */
 
-.long-Copy{
-    line-height: 145%;
-    width: 70%;
-    margin-left: 15%; /*center the text*/
-
+.long-Copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%; /*center the text*/
 }
 
-.box p{
-    font-size: 90%;
-    line-height: 145%;
+.box p {
+  font-size: 90%;
+  line-height: 145%;
 }
-
 
 /* -------------------------------------------------------------------------------- */
 /* ICON*/
 /* -------------------------------------------------------------------------------- */
 
 .big-icon {
-    font-size: 350%;
-    display: block;
-    color: #18286fd1;
-    margin-bottom:10px;
+  font-size: 350%;
+  display: block;
+  color: #18286fd1;
+  margin-bottom: 10px;
 }
 
 .small-icon {
-    display: inline-block; 
-    width: 30px;
-    text-align: center;
-    color: #375d7f;
-    font-size: 120%;
-    margin-right: 10px;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #375d7f;
+  font-size: 120%;
+  margin-right: 10px;
 
-    /* secrets to align text and icons*/
-    line-height: 120%;
-    vertical-align: middle;
-    margin-top: -5px;
+  /* secrets to align text and icons*/
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
 }
 
 /* -------------------------------------------------------------------------------- */
 /* Buttons*/
 /* -------------------------------------------------------------------------------- */
 
-
 /* settings for both buttons */
 /* added pseudo element of hover*/
-.btn:link, 
+.btn:link,
 .btn:visited {
-    display: inline-block;
-    padding: 10px 30px;
-    font-weight: 300px;
-    text-decoration: none;
-    border-radius: 200px;
-    transition: background-color 0.2s, border 0.2s, color 0.2s ; /* background color will change when you hover over link in 2s*/
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300px;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s; /* background color will change when you hover over link in 2s*/
 }
-
 
 /* settings for left button */
 .btn-full:link,
 .btn-full:visited {
-    /* flat ui tool is used for left button*/
-    background-color: #765185;
-    border: 1px solid #099d29;
-    color: #fff;
-    margin-right: 15px; /* distance between the buttons*/
+  /* flat ui tool is used for left button*/
+  background-color: #765185;
+  border: 1px solid #099d29;
+  color: #fff;
+  margin-right: 15px; /* distance between the buttons*/
 }
-
 
 /* settings for right button */
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #099d29;
-    color: white;
-} 
+  border: 1px solid #099d29;
+  color: white;
+}
 
 /* hover on button*/
 /* 0to255 tool used to find darker shade of color */
 .btn:hover,
 .btn:active {
-    background-color: #6cecec7a;
+  background-color: #6cecec7a;
 }
 
 /* hover effect on left button */
 .btn-full:hover,
 .btn-full:active {
-    background-color: #6cecec7a;
-    border: 1px solid #efedeb;
-    /* color: #46da5f; */
+  background-color: #6cecec7a;
+  border: 1px solid #efedeb;
+  /* color: #46da5f; */
 }
 /* button effect on right buttom */
 
 .btn-ghost:hover,
-.btn-ghost:active{
-    border: 1px solid #efedeb;
-    color: #46da5f;
+.btn-ghost:active {
+  border: 1px solid #efedeb;
+  color: #46da5f;
 }
 
 /* -------------------------------------------------------------------------------- */
 /* HEADER*/
 /* -------------------------------------------------------------------------------- */
 
-
 header {
-    height: 65vh; /* expand img height*/
-    max-width: 100%;
-    background-size: cover; /* shows the entire backgoroung img*/
-    background-position: center; /* centers img*/
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/ia_logo.jpeg); */
-    /* makes transparent background inside main header*/
+  height: 65vh; /* expand img height*/
+  max-width: 100%;
+  background-size: cover; /* shows the entire backgoroung img*/
+  background-position: center; /* centers img*/
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/ia_logo.jpeg); */
+  /* makes transparent background inside main header*/
 
-    text-align: center;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0.8)), url(./img/hands-mechanic.jpeg);
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0.8)),
+    url(./img/hands-mechanic.jpeg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
 }
 
-
 .main-text-box {
-    position: absolute;         /* container with background image & main title*/
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); /**/
+  position: absolute; /* container with background image & main title*/
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /**/
 }
 
 .logo {
-    height: 100px;
-    width: auto;
-    float: left;
-    margin-top: 20px;
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
 }
 
-.main-nav{
-    float: right;
-    list-style: none; /* gets rid of bullet points*/
-    margin-top: 55px;
+.main-nav {
+  float: right;
+  list-style: none; /* gets rid of bullet points*/
+  margin-top: 55px;
 }
 
-.main-nav li /* selecting li elements inside the main nav*/ 
-{
-     display: inline-block; /* allows li to be side by side*/
-     margin-left: 40px;
+.main-nav li /* selecting li elements inside the main nav*/ {
+  display: inline-block; /* allows li to be side by side*/
+  margin-left: 40px;
 }
 
 .main-nav li a:link,
-.main-nav li a:visited /* selecting li elements inside the main nav and the A attribute*/ 
-{
-    padding: 8px 0;
-    color: white;
-    text-decoration: none; /*get rid of the text underline*/
-    text-transform: uppercase; 
-    font-size: 90%;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
+.main-nav li a:visited /* selecting li elements inside the main nav and the A attribute*/ {
+  padding: 8px 0;
+  color: white;
+  text-decoration: none; /*get rid of the text underline*/
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover,
-.main-nav li a:active{
-    border-bottom: 2px solid #765185;
-
+.main-nav li a:active {
+  border-bottom: 2px solid #765185;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -272,100 +261,97 @@ header {
 /* -------------------------------------------------------------------------------- */
 
 .section-features .long-Copy {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 /* -------------------------------------------------------------------------------- */
 /* DEALS*/
 /* -------------------------------------------------------------------------------- */
 
-.section-deals{
-    padding: 0;
-    margin-top: 30px;
-
+.section-deals {
+  padding: 0;
+  display: grid;
+  /* margin-top: 30px; */
+  margin: 50px 50px 0px 0px;
 }
-.deals-showcase{
-    list-style: none; /* removing bullet points from the list*/
-    width: 100%;
-
+.deals-showcase {
+  list-style: none; /* removing bullet points from the list*/
+  width: 100%;
 }
 
 .deals-showcase li {
-    display: block;
-    float: left;
-    width: 25%; /* 4 elements that need to be changed in width */
+  display: block;
+  float: left;
+  width: 25%; /* 4 elements that need to be changed in width */
 }
-.deals-photo{
-    width: 100%;
-    margin: 0%;
-    overflow: hidden; /* doesnt let the img go over the container*/
-    background-color: #000;
+.deals-photo {
+  width: 90%;
+  margin: 5%;
+  overflow: hidden; /* doesnt let the img go over the container*/
+  background-color: #000;
 }
 
 .deals-photo img {
-    opacity: 0.7;
-    width: 100%;
-    height: auto;
-    transform: scale(1.15); /* image will expand 115% BIG*/
-    transition: transform 0.5s, opacity 0.5s;
-
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  margin: 5%;
+  transform: scale(1.15); /* image will expand 115% BIG*/
+  transition: transform 0.5s, opacity 0.5s;
 }
 
 .deals-photo img:hover {
-    opacity: 1;;
-    transform: scale(1);
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* -------------------------------------------------------------------------------- */
 /* how it works*/
 /* -------------------------------------------------------------------------------- */
-.setions-steps{
-    background-color: whitesmoke;
-    
+.setions-steps {
+  background-color: whitesmoke;
 }
 
 .steps-box:first-child {
-    /* will select the 1st of the step boxes*/
-    text-align: right;
-    padding: 3%;
-    margin-top: 30px;
+  /* will select the 1st of the step boxes*/
+  text-align: right;
+  padding: 3%;
+  margin-top: 30px;
 }
 
-.steps-box:last-child{
-        /* will select the last of the step boxes*/
-    padding: 3%;
-    margin-top: 70px;
+.steps-box:last-child {
+  /* will select the last of the step boxes*/
+  padding: 3%;
+  margin-top: 70px;
 }
-.app-screen{
-    width: 40%;
+.app-screen {
+  width: 40%;
 }
 
-.works-step{
-    margin-bottom: 50px;
+.works-step {
+  margin-bottom: 50px;
 }
 
 .works-step:last-of-type {
-    /*  */
-    margin-bottom: 80px;
-
+  /*  */
+  margin-bottom: 80px;
 }
 
 .works-step div {
-    color: black;
-    border: 2px solid #e1070775;
-    display: inline-block;
-    border-radius: 50%;
-    width: 55px;
-    text-align: center;
-    padding: 5px;
-    float: left;
-    font-size: 150%;
-    margin-right: 25px;
+  color: black;
+  border: 2px solid #e1070775;
+  display: inline-block;
+  border-radius: 50%;
+  width: 55px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
 }
-.btn-app img{ 
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
-
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -373,136 +359,133 @@ header {
 /* -------------------------------------------------------------------------------- */
 
 .box img {
-    /* targeting images inside box of service page */
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-
+  /* targeting images inside box of service page */
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
 }
 
-.Curb-feature , .Detail-feature,
-.Vinyl-feature, .Face-feature{
-    margin-bottom: 5px;
-    
+.Curb-feature,
+.Detail-feature,
+.Vinyl-feature,
+.Face-feature {
+  margin-bottom: 5px;
 }
 
 /* -------------------------------------------------------------------------------- */
 /* EMAIL*/
 /* -------------------------------------------------------------------------------- */
 
-.my-form
-{
-height: 100vh;
-width: 100%;
-/* background-color: orange ; */
-display: flex;
-justify-content: center;
-align-items: center;
-/* background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0.8)), url(./img/hands-mechanic.jpeg); */
-background-size: cover;
-color: rgb(12, 12, 12);
-background-attachment: fixed;
-
+.my-form {
+  height: 100vh;
+  width: 100%;
+  /* background-color: orange ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0.8)), url(./img/hands-mechanic.jpeg); */
+  background-size: cover;
+  color: rgb(12, 12, 12);
+  background-attachment: fixed;
 }
 
-.container, .my-form
-{
-    /* width: 50%; */
-    max-width: 500px;
-    padding: 20px;
-    background-color: #fff ;
-    margin: 0 auto;
-    align-items: center;
-    align-content: center;
-    border-radius: 3rem;
-    box-shadow: 0 15px 20px rgb(0,0,0.5);
-
+.container,
+.my-form {
+  /* width: 50%; */
+  max-width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+  border-radius: 3rem;
+  box-shadow: 0 15px 20px rgb(0, 0, 0.5);
 }
 
-.form-group
-{
-   margin: 1rem;
-   align-items: center;
+.form-group {
+  margin: 1rem;
+  align-items: center;
 }
 
 input[type="text"],
-input[type=email]{
-    width: 100%;
-    height: 2rem;
+input[type="email"] {
+  width: 100%;
+  height: 2rem;
 }
 
-#select 
-{
-    width: 100%;
-    height: 2rem;
+#select {
+  width: 100%;
+  height: 2rem;
 }
 
-textarea
-{
-    width: 100%;
-    resize: vertical;
+textarea {
+  width: 100%;
+  resize: vertical;
 }
 
-#btn 
-{
-    width: 100%;
-    background: peru;
-    padding: 1rem;
-    color: #fff;
-    border-radius: 2rem;
-    outline: none;
-    border: none;
-    font-size: 15px;
-    text-align: center;
-    font-weight: bold;
+#btn {
+  width: 100%;
+  background: peru;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
 }
 
-#status
-{
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    margin: 15px auto;
+#status {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  margin: 15px auto;
 }
 
-.success 
-{
-    background-color: green;
-    color: #fff;
-    border-radius: 8px;
-    animation: status 4s ease forwards;
+.success {
+  background-color: green;
+  color: #fff;
+  border-radius: 8px;
+  animation: status 4s ease forwards;
 }
 
-.error 
-{
-    background-color: red;
-    color: #fff;
-    border-radius: 8px;
-    animation: status 4s ease forwards;
-
+.error {
+  background-color: red;
+  color: #fff;
+  border-radius: 8px;
+  animation: status 4s ease forwards;
 }
 
-@keyframes status{
-    0%{
-        opacity: 1;
-        pointer-events: all;
-    }
-    90%{
-        opacity: 1;
-        pointer-events: all;
-    }
-    100%{
-        opacity: 0;
-        pointer-events: none;
-    }
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
-
 
 /* mobile responsive */
-@media only screen and (max-width:800px) {
-    /* For mobile phones: */
-    .nav, .header, .main-text-box, .section-features, .row, .deals-showcase, .section-appointment, #email,
-    .Service, .my-form, #work{
-      width:100%;
-    }
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .nav,
+  .header,
+  .main-text-box,
+  .section-features,
+  .row,
+  .deals-showcase,
+  .section-appointment,
+  #email,
+  .Service,
+  .my-form,
+  #work {
+    width: 100%;
   }
+}
